@@ -1,0 +1,178 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+ 
+#header-nav {
+	background-color: #f6b319;
+	border-radius:0;
+	border: 0;
+	height:140px;
+}
+
+
+.navbar-brand {
+	padding-top: 25 px;
+}
+
+.navbar-brand h1 {
+	padding-top: 0;
+	margin-top: 0;
+	font-family: 'Lora';
+	font-size: 1.8em;
+	text-transform:uppercase;
+	color: #61122f;
+	font-weight:bold;
+	text-shadow: 1px 1px 1px;
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.navbar-brand p span {
+	color: black;
+	font-size: 0.8em
+	padding-top:0;
+	padding-left: 8px;
+}
+
+#nav-list {
+	background-color: #f6b319;
+	padding-top: 0;
+	margin-top: 10px;
+
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center; 
+}
+#nav-list a:hover {
+	 background: #E7E7E7;
+	 height: 68px;
+}
+
+#nav-list a span {
+  font-size: 1.2em;
+}
+
+#phone a{
+	text-align: right;
+	color:green;
+	padding-bottom: 0;
+}
+
+#phone div { /*we deliver*/
+	text-align: right;
+	padding-bottom: 0;
+	padding-right: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/**tiles**/
+
+#menu-tile, #specials-tile,#map-tile{
+	height:250px;
+	width:100%;
+	margin-bottom: 15px;
+	position: relative;
+	border:2px solid #3F0C1F;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+	
+	box-shadow: 0 1px 5px 1px #cccccc;
+
+}
+
+#menu-tile {
+  background: url('../image/menuu.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../image/specials.jpg') no-repeat;
+  background-position: center;
+}
+#menu-tile span, #specials-tile span,#map-tile span {
+	position: absolute;
+
+	bottom: 0;
+	  right: 0;
+	  width: 100%;
+	  text-align: center;
+	  font-size: 1.2em;
+	  text-transform: uppercase;
+	  background-color: #000;
+	  color: #fff;
+	  opacity: .8;
+}
+
+
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+	#logo-img {
+		margin-top: -5px;
+	}
+	.container .jumbotron {
+    background: url('../image/GILLYS.jpg') no-repeat;
+    height: 575px;
+  }
+	
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/gillyslarge.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-left: -30px;
+    margin-top: -5px;
+
+  }
+  /* End Header */
+
+  .container .jumbotron {
+    background: url('../image/GILLYS.jpg') no-repeat;
+    height: 550px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.container .jumbotron {
+    background: url('../image/GILLYS.jpg') no-repeat;
+    height: 550px;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
