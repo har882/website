@@ -9,7 +9,7 @@ body{
 	background-color: #f6b319;
 	border-radius:0;
 	border: 0;
-	height:140px;
+	height:100%;
 }
 
 
@@ -129,7 +129,12 @@ body{
     background: url('../image/GILLYS.jpg') no-repeat;
     height: 575px;
   }
-	
+	#header-nav {
+	background-color: #f6b319;
+	border-radius:0;
+	border: 0;
+	height:140px;
+}
 
 }
 
@@ -152,6 +157,13 @@ body{
   }
 }
 
+	#header-nav {
+	background-color: #f6b319;
+	border-radius:0;
+	border: 0;
+	height:140px;
+}
+
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 	
@@ -159,6 +171,13 @@ body{
     background: url('../image/GILLYS.jpg') no-repeat;
     height: 550px;
 	}
+
+	#header-nav {
+	background-color: #f6b319;
+	border-radius:0;
+	border: 0;
+	height:100%;
+}
 }
 
 /********** Extra small devices only **********/
@@ -176,3 +195,10 @@ body{
     font-size: .6em;
     margin-top: 12px;
   }
+
+  #header-nav {
+	background-color: #f6b319;
+	border-radius:0;
+	border: 0;
+	height:100%;
+}
