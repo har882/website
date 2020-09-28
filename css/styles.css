@@ -82,7 +82,7 @@ body{
 /**tiles**/
 
 #menu-tile, #specials-tile,#map-tile{
-	height:250px;
+	height:100%;
 	width:100%;
 	margin-bottom: 15px;
 	position: relative;
@@ -207,6 +207,8 @@ body{
 	border: 0;
 	height:100%;
 }
+
+	
 }
 
 /********** Extra small devices only **********/
@@ -230,4 +232,5 @@ body{
 	border-radius:0;
 	border: 0;
 	height:100%;
+}
 }
